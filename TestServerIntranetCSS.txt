@@ -1,0 +1,260 @@
+body {
+background-image: url('https://github.com/mckinneylibrary/images/blob/master/TestServer/Booha%20background.png?raw=true');
+}
+
+body {
+background-color: #FFFFFF; 
+//color: #FFFFFF ; 
+}
+
+
+.shelvingloc {
+	display: none !important;
+}
+
+#advsearch-itemtypes img {
+	width: 50px;
+}
+
+/* custom css for the news area on the left. */
+.newsitem {
+    padding: 3px;
+    margin: .3em;
+    border-bottom: 1px solid #EEE;
+    background-color: #ffffff;
+    border-radius: 6px;
+    filter: alpha(opacity=75);
+    -moz-opacity: 0.75;
+    opacity: 1;
+}
+
+.ScrollingNews{
+        width: 100%;
+        padding: 10px 0;
+        background-color: lightblue;
+        color: red;
+      }
+
+.ScrollingNews :hover {
+-moz-animation-play-state: paused;
+-webkit-animation-play-state: paused;
+animation-play-state: paused;
+}
+
+#save_items {
+    border: 1px solid #D2D2CF;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    background-color: #ffffff;
+    text-align: center;
+    background-color: #F2F2EF;
+    color:#000000;
+}
+
+  #login h1 a {
+height:71px;
+}
+
+/*login page logo replaces koha logo */
+#login h1 {
+    background: url("https://github.com/mckinneylibrary/images/blob/master/logos/helloteam.jpg?raw=true") no-repeat center top;  
+}
+
+
+#login h1 a {
+    /* http://www.zeldman.com/2012/03/01/replacing-the-9999px-hack-new-image-replacement/ */
+	display: block;
+	height: 74px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+/* Speed Green Update and Run Sql button */
+#sql_report_form .btn[value="update_and_run_sql"] {
+	background: #7CFC00;
+}
+
+.cloud_copies {
+color: red;
+}
+* { box-sizing: border-box; }
+/*$duration: 30s;*/
+
+#area-userblock {
+	border: none;
+}
+
+.user-info {
+	margin-left: -15px;
+    margin-top: 20px;
+}
+
+body {
+background: #F8FFFE;  
+background-image: none;
+background-boarder: #98E3CE;
+}
+
+/*space for better looking menu titles */
+.dropdown-menu-left {
+    right: auto;
+    left: 0;
+    padding-left: 5px;
+}
+
+/* Make News More Visible) */
+#area-news, #area-pending {
+    background-color: #FFFFFF;
+}
+
+
+.missionValues {
+	width: 100%;
+  	margin: auto;
+}
+
+
+/* Bolding the Maker Waver Line in Patron Account */
+.patronattribute {
+	font-weight: bold;
+    color: red;
+}
+
+/*Enlarging the Koha Staff Nav Bars and Home Button*/
+#header_search {
+    font-size: 18px;
+}
+
+#sub-header {
+	margin-bottom: 20px;
+}
+
+#breadcrumbs a[href="/cgi-bin/koha/mainpage.pl"]::before {
+  	font-size: 50px;
+}
+
+#toplevelmenu, .logged-in-branch-name, .loggedinusername {
+	font-size: 18px;
+}
+
+#toplevelmenu .dropdown-menu {
+	font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  #header_search {
+  		width: 100% !important;
+  }
+}
+
+/* Hiding Creat Manual Credit EV 07/06/23 */
+li.manualcredit {
+    display: none;
+}
+
+
+/* increased help font size on right side of the sub menu */
+
+#helper {
+    font-size: 18px;
+}
+
+/*Patron record view changes in koha intranet*/
+
+/* And I am using the following the style any patron notes, messages, etc.*/
+
+/*Add background color and border to circ messages on moremember.pl */
+#circmessages > ul > li, #patron_messages > ul > li {
+  font-size: 16px;
+  background-color: #f9f9f9;
+  border: 1px solid #bcbcbc;
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-left: 7px;
+  width: 97.78%;
+}
+
+/*Add background color and border to circ messages on circulation.pl */
+#circmessages > ul > li {
+  font-size: 16px;
+  background-color: #f9f9f9;
+  /*background-color: #fff1a8;*/
+  border: 1px solid #bcbcbc;
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-left: 7px;
+  width: 97.78%;
+}
+
+/*Add background color and border to circ notes and messages on circulation.pl */
+#circnotes, #messages {
+  font-size: 16px;
+  background-color: #f9f9f9;
+  border: 1px solid #bcbcbc;
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  width: 96.9%;
+}
+
+/*Add background color and border to holds waiting on circulation.pl */
+#holdswaiting > ul > li {
+  font-size: 16px;
+  background-color: #f9f9f9;
+  border: 1px solid #bcbcbc;
+  padding: 5px;
+  width: 98.58%;
+}
+
+/*Item records modify view changes*/
+
+/*increase height of input boxes to match dropdown boxes on additem.pl*/ 
+#cataloguing_additem_newitem .input_marceditor {
+  height: 28px;
+}
+
+/*left-justify the item fields labels on additem.pl*/
+#cataloguing_additem_newitem fieldset.rows label, #cataloguing_additem_newitem fieldset.rows span.label {
+  text-align: left;
+}
+
+/*align the item fields labels with the boxes on additem.pl*/
+#subfield952d > label, #subfield9527 > label, #subfield952y > label, #subfield9528 > label, #subfield952c > label, #subfield952o > label, #subfield952h > label, #subfield952p > label, #subfield952e > label, #subfield952g > label, #subfield952v > label, #subfield952u > label, #subfield952x > label, #subfield952z > label, #subfield9520 > label, #subfield9521 > label, #subfield9524 > label {
+  /*padding-top: 6px;*/
+}
+
+/*add space above Acquisitions header on additem.pl*/
+#f > fieldset.rows > ol > li.source > h4 {
+  /*margin-top: 15px;*/
+}
+
+/*add space above Notes header on additem.pl*/
+#f > fieldset.rows > ol > li.nonpublic > h4 {
+  margin-top: 0px;
+}
+
+/*add space above Statuses header on additem.pl*/
+#f > fieldset.rows > ol > li.withdrawn > h4 {
+  margin-top: 6px;
+}
+
+#subfield952m, #subfield952n, #subfield952q, #subfield952r {
+padding-top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
